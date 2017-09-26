@@ -1,6 +1,6 @@
 def prime?(test_num)
   counter = test_num - 1
-  if test_num == -2 || test_num == -1 || test_num == 0 || test_num == 1 || test_num == 2
+  if || test_num == -1 || test_num == 0 || test_num == 1
     return false
   end
   while counter > 1
